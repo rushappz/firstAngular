@@ -8,4 +8,8 @@ angular
 		}, function(error) {
 			console.log(error);
 		});
+		
+		$scope.sayHello = function() {
+			console.log('Hello World!');
+		}
 	});
